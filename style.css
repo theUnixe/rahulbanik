@@ -165,13 +165,15 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("images/bground.jpg") no-repeat center;
+    background-color:#111;
     height: 100vh;
-    color: #fff;
+    color:#d8dee9;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
+    image-resolution:inherit;
 }
 .home .max-width{
   width: 100%;
