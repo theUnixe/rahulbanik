@@ -165,12 +165,12 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/bground.jpg") no-repeat center;
-    background-color:#111;
+    background: url("images/newrahul1.png") no-repeat right;
+    background-color:#000000;
     height: 100vh;
     color:#d8dee9;
     min-height: 500px;
-    background-size: cover;
+    background-size:780px;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
     image-resolution:inherit;
@@ -220,11 +220,11 @@ section .title::after{
     content: "who i am";
 }
 .about .about-content .left{
-    width: 45%;
+    width: 40%;
 }
 .about .about-content .left img{
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
     object-fit: cover;
     border-radius: 6px;
 }
@@ -644,6 +644,7 @@ footer span a:hover{
         margin-bottom: 35px;
     }
 }
+
 
 @media (max-width: 690px) {
     .max-width{
